@@ -1,0 +1,348 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo project usingSerenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="12b46121ce78cbd9ba71eebd80e8f367c30ebb9ed4a070fc980188913f3324ec.html">Utest Technical Challenge</a></span>
+                > <span class="truncate-60"><a
+                    href="b49f2e90207461aad4831beda7ccd48d7d64f4e3af0005e2658e3d277e215878.html">Perform successful registration on the Utest page </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 10-03-2022 13:21</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Utest Technical Challenge </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                a user wants to register on the utest page
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="failing-color">Perform successful registration on the Utest page
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given user starts the registration process in the option join today<br>When user performs the registration process of the utest page<br><table class='embedded'><thead><th>firstName</th><th>secondName</th><th>email</th><th>monthBirth</th><th>dayBirth</th><th>yearBirth</th><th>city</th><th>zipCode</th><th>mobileDevice</th><th>model</th><th>operatingSystem</th><th>password</th></thead><tbody><tr><td>&lt;firstName&gt;</td><td>&lt;secondName&gt;</td><td>&lt;email&gt;</td><td>&lt;monthBirth&gt;</td><td>&lt;dayBirth&gt;</td><td>&lt;yearBirth&gt;</td><td>&lt;city&gt;</td><td>&lt;zipCode&gt;</td><td>&lt;mobileDevice&gt;</td><td>&lt;model&gt;</td><td>&lt;operatingSystem&gt;</td><td>&lt;password&gt;</td></tr></tbody></table><br>Then user achieves successful registration<br><table class='embedded'><tbody><tr><td>answer</td></tr><tr><td>&lt;answer&gt;</td></tr></tbody></table></div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Assertion error: Expected answer pageExpected: is (true) but: was (false)</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>co.com.utest.reto.tecnico.stepdefinitios.RetoUtestStepDefinition.userAchievesSuccessfulRegistration(RetoUtestStepDefinition.java:40)<br />✽.user achieves successful registration(src/test/resources/features/RetoUtest.Feature:13)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource5051328824010742702.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="57ae97550ef30cb37f4e9cfe158a0346c2244e6ec6fa0229fe6878c2cb0f7a5c.png" title=" Example: {firstName=Johana, secondName=Grandas, email=joana05@gmail.com, monthBirth=August, dayBirth=2, yearBirth=1982, city=Medell&iacute;n, zipCode=050015, mobileDevice=Apple, model=iPhone 4, operatingSystem=iOS 11.0.3, password=Reto123456*, answer=Welcome to the world's largest community of freelance software testers!}" width="1366"/>
+                <img src="57ae97550ef30cb37f4e9cfe158a0346c2244e6ec6fa0229fe6878c2cb0f7a5c.png" title=" Given user starts the registration process in the option join today" width="1366"/>
+                <img src="57ae97550ef30cb37f4e9cfe158a0346c2244e6ec6fa0229fe6878c2cb0f7a5c.png" title=" Rose open up" width="1366"/>
+                <img src="57ae97550ef30cb37f4e9cfe158a0346c2244e6ec6fa0229fe6878c2cb0f7a5c.png" title=" Rose opens the Utest page" width="1366"/>
+                <img src="57ae97550ef30cb37f4e9cfe158a0346c2244e6ec6fa0229fe6878c2cb0f7a5c.png" title=" Rose open up (completed)" width="1366"/>
+                <img src="57ae97550ef30cb37f4e9cfe158a0346c2244e6ec6fa0229fe6878c2cb0f7a5c.png" title=" Rose registration" width="1366"/>
+                <img src="57ae97550ef30cb37f4e9cfe158a0346c2244e6ec6fa0229fe6878c2cb0f7a5c.png" title=" Rose clicks on Step 1: Tell us about yourself" width="1366"/>
+                <img src="f4f7e32f630423fd462e262fd063c87f60d4394074b4e9d4a5d1181049b49256.png" title=" Rose clicks on Step 1: Tell us about yourself (completed)" width="1366"/>
+                <img src="e0a2a9b2b13190d845396a739f887545b23af0b4368a6211f9b8e91dbb6691f7.png" title=" Rose registration (completed)" width="1366"/>
+                <img src="e0a2a9b2b13190d845396a739f887545b23af0b4368a6211f9b8e91dbb6691f7.png" title=" Given user starts the registration process in the option join today (completed)" width="1366"/>
+                <img src="e0a2a9b2b13190d845396a739f887545b23af0b4368a6211f9b8e91dbb6691f7.png" title=" When user performs the registration process of the utest page
+| firstName | secondName | email | monthBirth | dayBirth | yearBirth | city | zipCode | mobileDevice | model | operatingSystem | password |
+| Johana | Grandas | joana05@gmail.com | August | 2 | 1982 | Medell&iacute;n | 050015 | Apple | iPhone 4 | iOS 11.0.3 | Reto123456* |" width="1366"/>
+                <img src="bd8c243567f09f1ec58a45737b7daf406524eee6c2f8f39a611b2b58a5c065c4.png" title=" Rose step one" width="1366"/>
+                <img src="5dfe22a9fb24c8d6765bb2410c5bf1269071696a8e34dcb4d3e366088f94d760.png" title=" Rose enters 'Johana' into first name" width="1366"/>
+                <img src="205740f3ba2b617965cbfb4a209cecc200adafa0d9c4f3dc8ca933dfc5f56eb9.png" title=" Rose enters 'Johana' into first name (completed)" width="1366"/>
+                <img src="205740f3ba2b617965cbfb4a209cecc200adafa0d9c4f3dc8ca933dfc5f56eb9.png" title=" Rose enters 'Grandas' into second name" width="1366"/>
+                <img src="cd5a3251ec5d8e44fc1383ce73619f7a64735cda03d5476288a47f3725abe90b.png" title=" Rose enters 'Grandas' into second name (completed)" width="1366"/>
+                <img src="cd5a3251ec5d8e44fc1383ce73619f7a64735cda03d5476288a47f3725abe90b.png" title=" Rose enters 'joana05@gmail.com' into email" width="1366"/>
+                <img src="5eaace58af26d109211fb450787a0fc74469bac142c0c212ccd9765f7ad0e231.png" title=" Rose enters 'joana05@gmail.com' into email (completed)" width="1366"/>
+                <img src="5eaace58af26d109211fb450787a0fc74469bac142c0c212ccd9765f7ad0e231.png" title=" Rose clicks on month" width="1366"/>
+                <img src="ac872d4a33282077f2bb56fa9e6181b8e40ccc258e7b9432817e143d586c0a85.png" title=" Rose clicks on month (completed)" width="1366"/>
+                <img src="91930e5377becdcedc8126108ce0b3fcfc73526eb6537f433aa63fdf321a5376.png" title=" Rose clicks on day" width="1366"/>
+                <img src="80690ece58cb1b32ebdd9984bc93cfa3ce2d4377732759af254c2f34a0bd9c69.png" title=" Rose clicks on day (completed)" width="1366"/>
+                <img src="d9271ca5b82c50a01dcb8f70728504d29c3821c81211948e1f4a494c01ba957d.png" title=" Rose clicks on year" width="1366"/>
+                <img src="efe117b1343f78b85c9dc5309da80bfb0a88bc55e17bc30e54e86b9904cb1c3f.png" title=" Rose clicks on year (completed)" width="1366"/>
+                <img src="d3c0aa0322b9f0b289c25978a4fd916d550c64ec647dd316fcc4c870b919e68d.png" title=" Rose clicks on Button step two" width="1366"/>
+                <img src="b4d8427789720803d5fdcdf6f71086eb04e3e8ce5ea954d2642b622ed82fed4b.png" title=" Rose clicks on Button step two (completed)" width="1366"/>
+                <img src="b4d8427789720803d5fdcdf6f71086eb04e3e8ce5ea954d2642b622ed82fed4b.png" title=" Rose step one (completed)" width="1366"/>
+                <img src="02aea238b784e73657a2e411acbd97b13b385690a54791cbda57bf3ed56f9d7e.png" title=" Rose step two" width="1366"/>
+                <img src="d469c4ae43c4208b26a53ee626436a5554e7f3eadbc29648922e476321f44474.png" title=" Rose clicks on city" width="1366"/>
+                <img src="53a9c49a912ebd9e9aa3a23c82afa01396273c6d3a3b3365ee84e29ecb4244b5.png" title=" Rose clicks on city (completed)" width="1366"/>
+                <img src="53a9c49a912ebd9e9aa3a23c82afa01396273c6d3a3b3365ee84e29ecb4244b5.png" title=" Rose clears field city" width="1366"/>
+                <img src="1daca5f054e4129128ccdff532b75477f906b37c8e92d1ec228f3edbeb447811.png" title=" Rose clears field city (completed)" width="1366"/>
+                <img src="1daca5f054e4129128ccdff532b75477f906b37c8e92d1ec228f3edbeb447811.png" title=" Rose enters 'Medell&iacute;n' into city" width="1366"/>
+                <img src="e2befffd1e5e7d0c0b97fc88a4adfa1cbc32165e04a53f6262f9f72e62d657dd.png" title=" Rose enters 'Medell&iacute;n' into city (completed)" width="1366"/>
+                <img src="e2befffd1e5e7d0c0b97fc88a4adfa1cbc32165e04a53f6262f9f72e62d657dd.png" title=" Rose enters ARROW_DOWN into city" width="1366"/>
+                <img src="12f0d7c61ad9503a5a8e8a75dcb7667aa39519380d6ec1aa8d33d9e4b4abedc9.png" title=" Rose enters ARROW_DOWN into city (completed)" width="1366"/>
+                <img src="12f0d7c61ad9503a5a8e8a75dcb7667aa39519380d6ec1aa8d33d9e4b4abedc9.png" title=" Rose enters ENTER into city" width="1366"/>
+                <img src="d1f59067e7e7c69fc6cd92f0cf6f820b141d1946de69beac9c80aebfb0ae097c.png" title=" Rose enters ENTER into city (completed)" width="1366"/>
+                <img src="9449b352eb6c6caaea29cb9fde134b60593d85a5d18630faf6115f1ca0de9e3f.png" title=" Rose clicks on zip code" width="1366"/>
+                <img src="4c0c6a0c4eeab6a0e3245ba20358ea442628ae125dcbabcf88788857fc2990e5.png" title=" Rose clicks on zip code (completed)" width="1366"/>
+                <img src="4c0c6a0c4eeab6a0e3245ba20358ea442628ae125dcbabcf88788857fc2990e5.png" title=" Rose clears field zip code" width="1366"/>
+                <img src="f2c3d7182a8230ac266a43ae5fd0afa697527ccb138e08d677fce3887d7ca7a4.png" title=" Rose clears field zip code (completed)" width="1366"/>
+                <img src="f2c3d7182a8230ac266a43ae5fd0afa697527ccb138e08d677fce3887d7ca7a4.png" title=" Rose enters '050015' into zip code" width="1366"/>
+                <img src="4845b77b5009ea0e59489009e372e2f5a17ae56fd859d13b45d3cd957847c0ad.png" title=" Rose enters '050015' into zip code (completed)" width="1366"/>
+                <img src="4845b77b5009ea0e59489009e372e2f5a17ae56fd859d13b45d3cd957847c0ad.png" title=" Rose clicks on Button step Three" width="1366"/>
+                <img src="6702a8d83e18e65ce229252cd285878d596b206fa9fdb02fdfa62a6e45f75758.png" title=" Rose clicks on Button step Three (completed)" width="1366"/>
+                <img src="6702a8d83e18e65ce229252cd285878d596b206fa9fdb02fdfa62a6e45f75758.png" title=" Rose step two (completed)" width="1366"/>
+                <img src="6702a8d83e18e65ce229252cd285878d596b206fa9fdb02fdfa62a6e45f75758.png" title=" Rose step three" width="1366"/>
+                <img src="4a31aac770eb77d22828c3bfc98dcd6ccd5f53a8e16f77d010ec4290efc17d07.png" title=" Rose clicks on mobile device" width="1366"/>
+                <img src="0b203b99dda4e237a04517274f94127712571b7796b238e8cec66454f76cf1d0.png" title=" Rose clicks on mobile device (completed)" width="1366"/>
+                <img src="0b203b99dda4e237a04517274f94127712571b7796b238e8cec66454f76cf1d0.png" title=" Rose enters 'Apple' into mobile device" width="1366"/>
+                <img src="63afff6503dc45bbe8c1028fef40cd5b7259ae24116d4cd522ea24ac7363e29b.png" title=" Rose enters 'Apple' into mobile device (completed)" width="1366"/>
+                <img src="63afff6503dc45bbe8c1028fef40cd5b7259ae24116d4cd522ea24ac7363e29b.png" title=" Rose enters ENTER into mobile device" width="1366"/>
+                <img src="2db88af5164a3c25c8fbba286486ef171235a62f429842b5a0faf8d95f7a2a8c.png" title=" Rose enters ENTER into mobile device (completed)" width="1366"/>
+                <img src="2db88af5164a3c25c8fbba286486ef171235a62f429842b5a0faf8d95f7a2a8c.png" title=" Rose clicks on model" width="1366"/>
+                <img src="16e15bffb9aa4c9a65216817597e4fb0a8097aa618550a8b63cd945eda79e14e.png" title=" Rose clicks on model (completed)" width="1366"/>
+                <img src="16e15bffb9aa4c9a65216817597e4fb0a8097aa618550a8b63cd945eda79e14e.png" title=" Rose enters 'iPhone 4' into model" width="1366"/>
+                <img src="51fe1e4ad85994d574ab6801e554da267779fa281930b1c7b90ef2aa6e5c4f8f.png" title=" Rose enters 'iPhone 4' into model (completed)" width="1366"/>
+                <img src="51fe1e4ad85994d574ab6801e554da267779fa281930b1c7b90ef2aa6e5c4f8f.png" title=" Rose enters ENTER into model" width="1366"/>
+                <img src="5e19f1396f6109a59cd05de8647da8ef9dd94eec971e564327be4ecdb934f95f.png" title=" Rose enters ENTER into model (completed)" width="1366"/>
+                <img src="5e19f1396f6109a59cd05de8647da8ef9dd94eec971e564327be4ecdb934f95f.png" title=" Rose clicks on operating system" width="1366"/>
+                <img src="54975b038392326a354a7526eb5ff3cf3efa6601a789ea2c210654094b213be4.png" title=" Rose clicks on operating system (completed)" width="1366"/>
+                <img src="54975b038392326a354a7526eb5ff3cf3efa6601a789ea2c210654094b213be4.png" title=" Rose enters 'iPhone 4' into operating system" width="1366"/>
+                <img src="e671e258b6e295b2e98c956e65c1e06ae1033ac770ba0f944486d0eb74a65b4f.png" title=" Rose enters 'iPhone 4' into operating system (completed)" width="1366"/>
+                <img src="e671e258b6e295b2e98c956e65c1e06ae1033ac770ba0f944486d0eb74a65b4f.png" title=" Rose enters ENTER into operating system" width="1366"/>
+                <img src="d239d33475b5feaf960d3b3881a92fce14168c6c3a9cd193432f44df78a36a9a.png" title=" Rose enters ENTER into operating system (completed)" width="1366"/>
+                <img src="d239d33475b5feaf960d3b3881a92fce14168c6c3a9cd193432f44df78a36a9a.png" title=" Rose clicks on Button step four" width="1366"/>
+                <img src="3618e8606e78ceccecd4bf0d73844dc28685c1dc6b9a1ed0efaccd8fa95c981f.png" title=" Rose clicks on Button step four (completed)" width="1366"/>
+                <img src="3618e8606e78ceccecd4bf0d73844dc28685c1dc6b9a1ed0efaccd8fa95c981f.png" title=" Rose step three (completed)" width="1366"/>
+                <img src="3618e8606e78ceccecd4bf0d73844dc28685c1dc6b9a1ed0efaccd8fa95c981f.png" title=" Rose step four" width="1366"/>
+                <img src="6361f5d48f8ec1957eb4bd7654ef983482296d8df3ff9a5246d2aec4c76e3bcc.png" title=" Rose enters 'Reto123456*' into Text password" width="1366"/>
+                <img src="b18d0d884cecef1665bdbaa0c0e85e8b2f2f8e7c77c0a85997c4720e32e95532.png" title=" Rose enters 'Reto123456*' into Text password (completed)" width="1366"/>
+                <img src="b18d0d884cecef1665bdbaa0c0e85e8b2f2f8e7c77c0a85997c4720e32e95532.png" title=" Rose enters 'Reto123456*' into Text confirm password" width="1366"/>
+                <img src="5dd3b5f5b0ab6abcddb0a442a06647880ae21690c2503f3b7275d73e334d80c9.png" title=" Rose enters 'Reto123456*' into Text confirm password (completed)" width="1366"/>
+                <img src="5dd3b5f5b0ab6abcddb0a442a06647880ae21690c2503f3b7275d73e334d80c9.png" title=" Rose clicks on Checkbox term" width="1366"/>
+                <img src="43edc84972bf3e1994e89a4757f6b71b1b71bbc38f9c133678f73a872d7e3347.png" title=" Rose clicks on Checkbox term (completed)" width="1366"/>
+                <img src="43edc84972bf3e1994e89a4757f6b71b1b71bbc38f9c133678f73a872d7e3347.png" title=" Rose clicks on Checkbox policy and privacy" width="1366"/>
+                <img src="1047670fa0d093afcd721f378af310b3a2ad43c3a0f142eda3f4ef55aebec381.png" title=" Rose clicks on Checkbox policy and privacy (completed)" width="1366"/>
+                <img src="1047670fa0d093afcd721f378af310b3a2ad43c3a0f142eda3f4ef55aebec381.png" title=" Rose clicks on Button register" width="1366"/>
+                <img src="2d265caecc8f469e5d6117ef421fb6f3f50d316515960c8b79dd6846bcf74809.png" title=" Rose clicks on Button register (completed)" width="1366"/>
+                <img src="2d265caecc8f469e5d6117ef421fb6f3f50d316515960c8b79dd6846bcf74809.png" title=" Rose step four (completed)" width="1366"/>
+                <img src="ca45cef079bbcc859663ee727c79c07e1c8194757b49aeba35ba9c72ab9af3d1.png" title=" When user performs the registration process of the utest page
+| firstName | secondName | email | monthBirth | dayBirth | yearBirth | city | zipCode | mobileDevice | model | operatingSystem | password |
+| Johana | Grandas | joana05@gmail.com | August | 2 | 1982 | Medell&iacute;n | 050015 | Apple | iPhone 4 | iOS 11.0.3 | Reto123456* | (completed)" width="1366"/>
+                <img src="ca45cef079bbcc859663ee727c79c07e1c8194757b49aeba35ba9c72ab9af3d1.png" title=" Then user achieves successful registration
+| answer |
+| Welcome to the world's largest community of freelance software testers! |" width="1366"/>
+                <img src="9898e7d286f840d81eaa499a3e99195f571459b641579a52f63718edc2ed22cb.png" title=" Then answer page" width="1366"/>
+                <img src="4d7f49b22da660d7cc9eddbd8c5de9ddca969ff2bd73ee90e1177ae2a2002167.png" title=" Then answer page (completed): <span class='failing-color'>FAILURE</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>

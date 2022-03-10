@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="utest technical challenge" skipped="0" tests="1" time="72.53" timestamp="2022-03-10 01:21:49"><testcase name="Perform successful registration on the Utest page"><failure message="Expected answer page&#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">Expected answer page
+Expected: is &lt;true&gt;
+     but: was &lt;false&gt;</failure><system-err>Expected answer page
+Expected: is &lt;true&gt;
+     but: was &lt;false&gt;&#13;
+co.com.utest.reto.tecnico.stepdefinitios.RetoUtestStepDefinition.userAchievesSuccessfulRegistration(RetoUtestStepDefinition.java:40)&#13;
+✽.user achieves successful registration(src/test/resources/features/RetoUtest.Feature:13)&#13;
+</system-err></testcase></testsuite>
